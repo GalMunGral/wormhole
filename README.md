@@ -1,6 +1,6 @@
 # Wormhole
 
-A split SOCKS5 proxy. **Rosen** (`Rosen.py`) runs locally as a SOCKS5 server; **Einstein** (`Einstein.py`) runs on the remote exit node. Rosen speaks standard SOCKS5 to the client and a lightweight custom protocol to Einstein, which connects to the actual destination.
+Split SOCKS5 proxy in Python.
 
 ```
 YOU <--SOCKS5--> R (Rosen, local) <--custom--> E (Einstein, remote) <--> destination
